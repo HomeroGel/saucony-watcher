@@ -1,6 +1,6 @@
 {
-  "on_sale": true,
+  "on_sale": false,
   "price_number": 234900,
   "compare_at_price_number": null,
-  "stock": 5
+  "stock": 6
 }

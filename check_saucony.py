@@ -87,7 +87,6 @@ def find_target_variant(variants: list) -> dict:
 
 
 def is_on_sale(variant: dict) -> bool:
-    return True  # TEMP: forzado para probar el envío de email, revertir después
     price = variant.get("price_number") or 0
     compare_at = variant.get("compare_at_price_number")
     has_promo = bool(variant.get("has_promotional_price"))
